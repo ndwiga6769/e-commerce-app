@@ -1,0 +1,30 @@
+.product-details {
+    display: flex;
+    justify-content: space-between;
+    background-color: offwhite;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .product-details img {
+    max-width: 300px;
+    border-radius: 8px;
+  }
+  
+  .product-details .description {
+    flex: 1;
+    margin-left: 1rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .product-details button {
+    background-color: #f9f9f9;
+    border: 1px solid gray;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  

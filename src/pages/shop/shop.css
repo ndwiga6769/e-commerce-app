@@ -1,0 +1,41 @@
+/* shop.css */
+.shop {
+  background-color: #f0f0f0;
+  display: grid;
+  grid-template-columns: repeat(1, 3fr); 
+  gap: 20px;
+  padding: 20px;
+}
+
+.shopTitle {
+  text-align: center;
+  color: black;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 15px;
+  width: 200px;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.addToCartBttn {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.checkout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .total {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  

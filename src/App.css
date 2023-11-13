@@ -1,0 +1,23 @@
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  margin: 0;
+  background-color: #F5F5F5;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #EAEAEA;
+  cursor: pointer;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #DDDDDD;
+  border-radius: 8px;
+}
+
+button + button {
+  margin-left: 15px;
+}
